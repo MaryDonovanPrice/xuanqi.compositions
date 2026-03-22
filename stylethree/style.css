@@ -1,0 +1,158 @@
+body{
+	background: url("xuanqiBackground.jpeg");
+	background-attachment: fixed;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+}
+
+div {
+	margin-left: 25%;
+	width: 50%;
+/*	border: 5px solid black;*/
+	height: 200px;
+/*	background-color: rgba(100, 100, 100, .5);*/
+}
+
+header {
+	display: block;
+}
+
+.firstHead {
+	display: inline;
+}
+
+nav {
+	float: right;
+	margin-left: 75%;
+	width: 25%;
+	position: fixed;
+}
+
+.navButtons {
+	border-radius: 20px;
+	width: 250px;
+	background-color: rgba(100, 100, 150, .9);
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+li {
+	display: block;
+	font-size: 40px;
+}
+
+.hide {
+	display: none;
+}
+
+.about:hover + .hide {
+	display: block;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.hide:hover {
+	display: block;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+
+#language {
+	float: right;
+}
+
+#bAndCButtons {
+	height: 50px;
+	width: 200px;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+
+.bAndCButtons {
+	height: 160px;
+	width: 300px;
+	border-radius: 40px;
+	margin-left: 16px;
+	font-size: 100px;
+	margin-top: 10px;
+}
+
+.small{
+	height: 40px;
+	width: 75px;
+	margin-left: 16px;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-top: 0px;
+}
+
+iframe {
+	width: 100%;
+	height: 465px;
+}
+
+.bio {
+	width: 75%;
+	height: 500px;
+	margin-left: -0%;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	display: none;
+}
+
+.bio.show {
+	display: block;
+}
+
+.cv {
+	width: 75%;
+	height: 500px;
+	margin-left: -0%;
+	position: fixed;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	display: none;
+}
+
+.cv.show {
+	display: block;
+}
+
+
+
+
+.artwork {
+	width: 75%;
+	margin-left: 0;
+	height: auto;
+	background: rgba(100, 100, 100, .2);
+	border-color: rgba(100, 100, 100, .3);
+}
+
+.artButton {
+	display: inline-block;
+	width: 75px;
+	height: 75px;
+	margin: 20px 2%;
+}
+
+img {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	border: 3px solid black;
+}
+
+video {
+	border: 3px solid black;
+	border-radius: 10px;
+	background-color: black;
+}
+
+.songTitle {
+	align-self: center;
+}
